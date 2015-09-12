@@ -8,21 +8,25 @@ import sys
 
 class Question:
     def __init__(self, english, japanese):
-        self.en = parse_english(english)
-        self.jp = japanese
+        self.en = parse_english(english) # double dimention array
+        self.jp = japanese # str
+
     def ask(self, level):
-        moth = {}
+        moth = {} # moth = ___
         GREEN = "\033[92m"
         RED = "\033[91m"
         END = "\033[0m"
-        word_matcher = re.compile("\S+")
+        word_matcher = re.compile("\S+") # match to word
 
-        for v in random.sample(self.en, min(level, len(self.en))):
+        for v in random.sample(self.en, min(level, len(self.en))): 
+            # some are turned to moth
             if v:
                 moth[self.en.index(v)] = v
 
-        print(self.jp)
+        # print problem
+        print(self.jp) # japanese
         for i, w in enumerate(self.en):
+            # english
             if i in moth:
                 print("_" * len(moth[i][0]), end=" ")
             else:
@@ -30,11 +34,12 @@ class Question:
 
         print()
 
-        answers = word_matcher.findall(input())
+        answers = word_matcher.findall(input()) # split to words
         allcorrect = True
 
         for i, ans in enumerate(answers):
-            correct = ans in self.en[i]
+            correct = ans in self.en[i] # are candidates include answer?
+
             if correct:
                 print(GREEN + "O" + END, end="")
             else:

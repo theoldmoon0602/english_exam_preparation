@@ -6,23 +6,6 @@ import unittest
 import argparse
 import sys
 
-"""
-<英文>
-<和文>
-
-<英文>
-<和文>
-
-となっているファイルを受け取る（最後に空行が入る）。
-英文は、スペース区切りが単語として認識される。
-また、複数の選択肢が存在する場合、(選択肢A|選択肢B)のようにかける。ただし、ネストはできない
-
-ファイルを読み込んで、英和の組み合わせを生成。
-英を解析して単語に分割する。それぞれの単語は配列になっていて、複数の選択肢が挿入可能になっている。
-つまり、英文は二次元配列。
-
-"""
-
 class Question:
     def __init__(self, english, japanese):
         self.en = parse_english(english)
@@ -129,9 +112,23 @@ def Questions(filename):
     return questions
 
 if __name__ == '__main__':
+    helptext="""
+    Problem file format
+        <English sentence>
+        <Japanese sentence>
+
+        <English sentence>
+        <Japanese sentence>
+
+    English sentence format
+        <word> <word>.
+        (<word1>|<word2>) <word>
+        <word> (<word1>.|<word2>.)
+        (<word>|) <word>. <- This is <word> or empty
+    """
     parser = argparse.ArgumentParser()
-    parser.add_argument("-l", "--level", type=int, default=random.randint(0, sys.maxsize))
-    parser.add_argument("-f", "--file", default="problems.txt")
+    parser.add_argument("-l", "--level", type=int, default=random.randint(0, sys.maxsize), help="The mothes increase with level. Default is random (almost cases level max")
+    parser.add_argument("-f", "--file", default="problems.txt", help="Set problem files path")
     args = parser.parse_args()
 
     qs = Questions(args.file)

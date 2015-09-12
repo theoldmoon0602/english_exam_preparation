@@ -221,10 +221,10 @@ My mother told me to get up early by myself in the morning.
 He promised not to make a fool of me again.
 彼は二度と私にうそをつかないと誓った
 
-It's necessary for us to study English every day if we want to improve our skills.
+(It's|It is) necessary for us to study English every day if we want to improve our skills.
 もし私たちの技術を改善したいのなら、英語を毎日学ぶことが必要だ。
 
-Its' important not to be late for class.
+(It's|It is) important not to be late for class.
 授業に遅れないことは重要です。
 
 The tearcher had his students take responsibility for their behavior.
@@ -254,7 +254,7 @@ I was made to help him with his homework.
 It is natural for you to (get|be) angry (at|with) him.
 あなたが彼に腹を立てるのは当然だ
 
-I (had|made) my brother (fix|repair) my (bike|bicycle).
+I (had|made) my brother (fix|repair) my (bike.|bicycle.)
 私は弟に自転車を修理してもらった
 
 I was (told|ordered) to go shopping at the supermarket.

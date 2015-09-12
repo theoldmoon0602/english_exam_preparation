@@ -43,7 +43,7 @@ She seems to be making something for us in the kitchen.
 He is very friendly, not to say generous.
 彼は気前が良いとはいえないまでもとても親しみやすいです。
 
-This soup is too salty for me to (have|eat)。
+This soup is too salty for me to (have.|eat.)
 このスープは塩辛すぎて私には飲めない。
 
 He is not old enough to understand this problem.

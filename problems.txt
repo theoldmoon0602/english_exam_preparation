@@ -31,7 +31,7 @@ The rain was not so heavy to prevent them from playing baseball.
 A woman told me where to get a cup of coffee, so I went to the place and gotone.
 ある女性は、どこでいっぱいのコーヒーを手に入れるかを私に教えてくれたので、私はその場所へ行って、それを手に入れた。
 
-I 'm very pleased to see you again.
+(I'm|I am) very pleased to see you again.
 私はまたあなたに会えてとても喜びを与えられています
 
 I want to be a lawyer when I graduate from college.

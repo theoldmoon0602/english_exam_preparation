@@ -35,12 +35,13 @@ class Question:
         print()
 
         answers = word_matcher.findall(input()) # split to words
-        allcorrect = True
+        corrects = 0
 
         for i, ans in enumerate(answers):
             correct = ans in self.en[i] # are candidates include answer?
 
             if correct:
+                corrects += 1
                 print(GREEN + "O" + END, end="")
             else:
                 allcorrect = False
@@ -52,7 +53,7 @@ class Question:
                 print(RED + "X" + END,end="")
                 print(v)
 
-        if allcorrect:
+        if corrects == len(self.en):
             print(GREEN + "Correct!" + END)
         else:
             print(RED + "Wrong..." + END)

@@ -117,20 +117,6 @@ def Questions(filename):
     return questions
 
 if __name__ == '__main__':
-    helptext="""
-    Problem file format
-        <English sentence>
-        <Japanese sentence>
-
-        <English sentence>
-        <Japanese sentence>
-
-    English sentence format
-        <word> <word>.
-        (<word1>|<word2>) <word>
-        <word> (<word1>.|<word2>.)
-        (<word>|) <word>. <- This is <word> or empty
-    """
     parser = argparse.ArgumentParser()
     parser.add_argument("-l", "--level", type=int, default=random.randint(0, sys.maxsize), help="The mothes increase with level. Default is random (almost cases level max")
     parser.add_argument("-f", "--file", default="problems.txt", help="Set problem files path")

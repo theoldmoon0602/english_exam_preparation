@@ -18,7 +18,7 @@ class Question:
         END = "\033[0m"
         word_matcher = re.compile("\S+") # match to word
 
-        for v in random.sample(self.en, min(level, len(self.en))): 
+        for v in random.sample(self.en, min(level, len(self.en))):
             # some are turned to moth
             if v:
                 moth[self.en.index(v)] = v
@@ -102,7 +102,7 @@ def Questions(filename):
     questions = []
     en = ""
     jps = []
-    with open(filename) as f:
+    with open(filename, encoding="utf-8") as f:
         for l in f:
             if not l.strip():
                 for jp in jps:

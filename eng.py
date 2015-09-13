@@ -40,15 +40,17 @@ class Question:
         for i, ans in enumerate(answers):
             if len(self.en) > i:
                 correct = ans in self.en[i] # are candidates include answer?
-            else:
-                correct = False
-            if correct:
-                corrects += 1
-                print(GREEN + "O" + END, end="")
+                if correct:
+                    corrects += 1
+                    print(GREEN + "O" + END, end="")
+                else:
+                    allcorrect = False
+                    print(RED + "X" + END, end="")
+                print("{} {}".format(self.en[i], ans))
             else:
                 allcorrect = False
                 print(RED + "X" + END, end="")
-            print("{} {}".format(self.en[i], ans))
+                print("[] {}".format(ans))
 
         if len(answers) < len(self.en):
             for v in self.en[len(answers):]:

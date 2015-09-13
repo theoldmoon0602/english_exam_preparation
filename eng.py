@@ -38,11 +38,10 @@ class Question:
         corrects = 0
 
         for i, ans in enumerate(answers):
-            if len(self.en[i]) > i:
+            if len(self.en) > i:
                 correct = ans in self.en[i] # are candidates include answer?
             else:
                 correct = False
-
             if correct:
                 corrects += 1
                 print(GREEN + "O" + END, end="")

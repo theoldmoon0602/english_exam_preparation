@@ -7,7 +7,7 @@ These puzzles are too difficult for him to solve.
 She was strong enough to lift the heavy barbell.
 彼女は重いバーベルを持ち上げるのに十分強かった。
 
-She was so strong as to lieft the heavy barbell.
+She was so strong as to lift the heavy barbell.
 彼女は重いバーベルを持ち上げることに関して、とても力強かった。
 
 It is comfortable to live in this house on the beach.
@@ -89,8 +89,7 @@ When Sally enterd the room in the evening, only one window on the right was clos
 サリーがその晩にその部屋へ入ってきたとき、右側のたった一枚の窓だけ閉められていた。そのほかの窓は彼女によって閉められた。
 
 "My passport got stolen while I was shopping." "My passport was stolen yesterday, too."
-「私がショッピングをしている間に、私の旅券は盗まれていました。」「私のパス
-ポートも、昨日盗まれました。」
+「私がショッピングをしている間に、私の旅券は盗まれていました。」「私のパスポートも、昨日盗まれました。」
 
 I was called by my mother in the kitchen when I came home.
 私が家に帰ってきたとき、私は台所に（いる）自分の母親によって呼ばれました。
@@ -143,7 +142,7 @@ A big apple pie was cut with a knife.
 The children were excited when they saw whales for the first time.
 子どもたちは初めて鯨を見て興奮していた。
 
-My youngest daughter is married to a doctor, and lived in Sydney now.
+My youngest daughter is married to a doctor, and lives in Sydney now.
 私の末娘は医者と結婚していて、今はシドニーに住んでいる
 
 The area is filled with young people every weekend.
@@ -227,7 +226,7 @@ He promised not to make a fool of me again.
 (It's|It is) important not to be late for class.
 授業に遅れないことは重要です。
 
-The tearcher had his students take responsibility for their behavior.
+The teacher had his students take responsibility for their behavior.
 その教師は彼の生徒たちに彼らの振る舞いのために責任を取らせた。
 
 We believe her to be innocent.
@@ -308,14 +307,14 @@ The police seem to be still (searching|looking) for the criminal.
 Her song seems to be loved by people all over the world.
 彼女の局は世界中の人々に愛されているようだ
 
-I happended to be there when the terrible accident occurred.
+I happened to be there when the terrible accident occurred.
 そのひどい事故が起こったとき、私はたまたまそこに居合わせた。
 
 His experiment turned out to be successful.
 彼の実験は成功とわかった
 
 They came to be interested in environmental problems.
-彼らは環境問題に興味を持ったようだ
+彼らは環境問題に興味を持つようになった
 
 I hear a strange noise. Something seems to be wrong with the engine.
 私はおかしな（異常な）音（騒音）を聞いています（習慣）。何かがエンジンのところで悪くなっているようだ。
@@ -359,7 +358,7 @@ She was happy that her teacher praised her.
 I happened to meet a friend from junior high school.
 私は偶然中学時代の友人に会った
 
-You happen to be Mr.Smith?
+Do you happen to be Mr.Smith?
 ひょっとしてスミスさんですか
 
 The doctor (seemed|appeared) to have studied in France.

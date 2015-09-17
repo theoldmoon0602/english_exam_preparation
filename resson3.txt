@@ -208,17 +208,13 @@ compact
 harden
 固める、固まる
 
-bake
+(bake|kiln)
 焼く
 
 transform
 変化させる
 
 transform ... into ___
-...を___にする
-
-kiln
-焼く
 
 ceramic
 陶磁器の
